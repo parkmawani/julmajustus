@@ -1,7 +1,7 @@
 
 <!-- MY NEOFETCH-STYLE README -->
 
-```html
+
 <pre>
 
                 ..=(@@@@->                 julmajustus@github   
@@ -36,7 +36,7 @@
  ..........~......~===%@@@@@@@@[==[(-@     Profile Views: <!-- PV_PLACEHOLDER -->0<!-- PV_PLACEHOLDER -->   
 
 </pre>
-```
+
 ![](https://komarev.com/ghpvc/?username=julmajustus&style=pixel)
 <details>
 <summary><strong>Repo overview</strong></summary>
