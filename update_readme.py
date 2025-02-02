@@ -8,13 +8,12 @@ GITHUB_USERNAME = "julmajustus"
 
 
 def replace_placeholder(content, placeholder_name, new_value):
-    """
-    Replaces <!-- PLACEHOLDER -->...<!-- PLACEHOLDER --> in 'content'
-    with 'new_value'. The placeholder_name is everything between the tags.
-    """
     pattern = fr"(<!--\s*{placeholder_name}\s*-->)(.*?)(<!--\s*{placeholder_name}\s*-->)"
-    replacement = '\\1' + str(new_value) + '\\3'
-    return re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+    def replacer(match):
+        return match.group(1) + str(new_value) + match.group(3)
+
+    return re.sub(pattern, replacer, content, flags=re.DOTALL)
 
 def get_contributions(username, token):
     query = """
