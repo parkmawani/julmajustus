@@ -27,12 +27,12 @@
      ...<@@@......-%#@@@...{@@@>@@@@@   
     .~...@@@@<.*@@@<..{@@]*@@@@%@@@@@      GitHub Stats   
     ..-]=@@@@@@@<<<<<<<@@@@@@][@@@@@@      ------------------   
-    ^{]]>%@{@@@{...^{@@@@@@@*@@@@@@@@      Repos: <!-- REPOS_PLACEHOLDER -->0<!-- REPOS_PLACEHOLDER -->   
-   .##{<####@@@@-~..[=@@@@{-#@@@@@@@@      Commits: <!-- CONTRIBUTIONS_PLACEHOLDER -->0<!-- CONTRIBUTIONS_PLACEHOLDER -->   
-  .=.@<@@<#>[<@%@@@@<@@#@@@@@@@@@@@@@@     Pull requests: <!-- PR_PLACEHOLDER -->0<!-- PR_PLACEHOLDER -->   
-  ....{%@(*@@-@*@@@@@@@@@@@@@@@@@@@@@@     Stars: <!-- STARS_PLACEHOLDER -->0<!-- STARS_PLACEHOLDER -->   
-  ..@-.]%##-[@%@@@@@@@@@@@@@@@@@@@@@@@     Followers: <!-- FOLLOWERS_PLACEHOLDER -->0<!-- FOLLOWERS_PLACEHOLDER -->   
- .*...^<@<>%@=]@@@@@@@@@@@@@@@@@@@@@@@     Profile Views: <!-- PV_PLACEHOLDER -->0<!-- PV_PLACEHOLDER -->   
+    ^{]]>%@{@@@{...^{@@@@@@@*@@@@@@@@      Repos: <!-- REPOS_PLACEHOLDER -->18<!-- REPOS_PLACEHOLDER -->   
+   .##{<####@@@@-~..[=@@@@{-#@@@@@@@@      Commits: <!-- CONTRIBUTIONS_PLACEHOLDER -->722<!-- CONTRIBUTIONS_PLACEHOLDER -->   
+  .=.@<@@<#>[<@%@@@@<@@#@@@@@@@@@@@@@@     Pull requests: <!-- PR_PLACEHOLDER -->34<!-- PR_PLACEHOLDER -->   
+  ....{%@(*@@-@*@@@@@@@@@@@@@@@@@@@@@@     Stars: <!-- STARS_PLACEHOLDER -->2<!-- STARS_PLACEHOLDER -->   
+  ..@-.]%##-[@%@@@@@@@@@@@@@@@@@@@@@@@     Followers: <!-- FOLLOWERS_PLACEHOLDER -->20<!-- FOLLOWERS_PLACEHOLDER -->   
+ .*...^<@<>%@=]@@@@@@@@@@@@@@@@@@@@@@@     Profile Views: <!-- PV_PLACEHOLDER -->33<!-- PV_PLACEHOLDER -->   
  ..........~......~===%@@@@@@@@[==[(-@     
 
 </pre>
