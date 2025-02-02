@@ -58,8 +58,8 @@ def main():
 
     num_repos = user.public_repos
     num_followers = user.followers
-
-	contributions = get_contributions("julmajustus", os.environ["GITHUB_TOKEN"])
+    
+    contributions = get_contributions("julmajustus", os.environ["GITHUB_TOKEN"])
 
     num_stars = 0
     for repo in user.get_repos():
@@ -79,7 +79,7 @@ def main():
 
     readme_contents = replace_placeholder(readme_contents, "REPOS_PLACEHOLDER", str(num_repos))
     readme_contents = replace_placeholder(readme_contents, "COMMITS_PLACEHOLDER", str(num_commits))
-	readme_contents = replace_placeholder(readme_contents, "CONTRIBUTIONS_PLACEHOLDER", str(contributions))
+    readme_contents = replace_placeholder(readme_contents, "CONTRIBUTIONS_PLACEHOLDER", str(contributions))
     readme_contents = replace_placeholder(readme_contents, "PR_PLACEHOLDER", str(num_pulls))
     readme_contents = replace_placeholder(readme_contents, "STARS_PLACEHOLDER", str(num_stars))
     readme_contents = replace_placeholder(readme_contents, "FOLLOWERS_PLACEHOLDER", str(num_followers))
