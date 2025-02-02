@@ -69,16 +69,12 @@ def main():
     pulls = g.search_issues(pr_query) if token else None
     num_pulls = pulls.totalCount if pulls else 0
 
-    num_commits = 0
-
-
     page_views = get_komarev_view_count(GITHUB_USERNAME)
 
     with open("README.md", "r", encoding="utf-8") as f:
         readme_contents = f.read()
 
     readme_contents = replace_placeholder(readme_contents, "REPOS_PLACEHOLDER", str(num_repos))
-    readme_contents = replace_placeholder(readme_contents, "COMMITS_PLACEHOLDER", str(num_commits))
     readme_contents = replace_placeholder(readme_contents, "CONTRIBUTIONS_PLACEHOLDER", str(contributions))
     readme_contents = replace_placeholder(readme_contents, "PR_PLACEHOLDER", str(num_pulls))
     readme_contents = replace_placeholder(readme_contents, "STARS_PLACEHOLDER", str(num_stars))
