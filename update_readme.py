@@ -71,7 +71,7 @@ def main():
 
     page_views = get_komarev_view_count(GITHUB_USERNAME)
 
-    with open("README.md", "r", encoding="utf-8") as f:
+    with open("readme.svg", "r", encoding="utf-8") as f:
         readme_contents = f.read()
 
     readme_contents = replace_placeholder(readme_contents, "REPOS_PLACEHOLDER", str(num_repos))
@@ -81,7 +81,7 @@ def main():
     readme_contents = replace_placeholder(readme_contents, "FOLLOWERS_PLACEHOLDER", str(num_followers))
     readme_contents = replace_placeholder(readme_contents, "PV_PLACEHOLDER", str(page_views))
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open("readme.svg", "w", encoding="utf-8") as f:
         f.write(readme_contents)
 
 
