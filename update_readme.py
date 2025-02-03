@@ -59,7 +59,7 @@ def main():
     num_repos = user.public_repos
     num_followers = user.followers
     
-    contributions = get_contributions("julmajustus", os.environ["GITHUB_TOKEN"])
+    contributions = get_contributions(GITHUB_USERNAME, os.environ["GITHUB_TOKEN"])
 
     num_stars = 0
     for repo in user.get_repos():
