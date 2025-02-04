@@ -12,7 +12,7 @@
 ## Repo overview
 
 <details>
-<summary style="font-size: 1.2em;"><strong>Code that I actually use</summary>
+<summary style="font-size: 1.2em;"><strong>Code that I actually use</strong></summary>
 
 ## btrtile — A Focus-Driven Tiling Layout for dwl.
 
@@ -56,7 +56,7 @@ Used also in [Cachyos-benchmarker](https://github.com/CachyOS/cachyos-benchmarke
 </details>
 
 <details>
-<summary style="font-size: 1.2em;"><strong>Educational projects</summary>
+<summary style="font-size: 1.2em;"><strong>Educational projects</strong></summary>
 
 ## cub3d - Wolfenstein3D/DOOM inspired zombie shooter.
 
