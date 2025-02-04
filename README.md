@@ -53,46 +53,59 @@ Zombie shooter written in C utilizes raycasting, DDA algorithm.
 
 ---
 
-### minishell - Linux shell written in C.
+### minishell - As Beautiful as a Shell
 
-Bash styled shell which handles most common shell builtins, command piping, "&&"/"||" operators and wildcards.
+minishell is a custom shell implemented in C as part of our group project. It replicates many features of bash, providing an interactive command-line environment with robust error handling, built-in commands, redirections, pipes, and more.
 
-[More detailed description in project repo](https://github.com/toagne/minishell)
+[More detailed description in project repo](https://github.com/julmajustus/minishell)
 
 ---
 
 ### fract’ol - Computer Graphics Fractals.
 
-Draws beatiful fractals utilizing MLX42 library.  
-Handles Julia, Mandelbrot and Multibrot sets.  
+A beautiful fractal renderer built in C using the MLX42 library. This project visualizes a variety of fractals, including the Julia, Mandelbrot, and Multibrot sets.
 
-[More detailed description in project repo](https://github.com/julmajustus/Hive/tree/main/fractol)
+
+[More detailed description in project repo](https://github.com/julmajustus/fractol)
 
 ---
 
 ### philosophers - Dining philosophers problem.
 
-Solving commong programming dilemma with threads and processes.
-Written in C utilizing pthread mutexes and semaphores.
+The Dining Philosophers Problem is a classical problem used to illustrate synchronization issues and techniques for preventing deadlock and starvation. In this project, you will find two solutions:
 
-[More detailed description in project repo](https://github.com/julmajustus/Hive/tree/main/philosophers)
+   - Pthreads Implementation: Uses threads and mutexes.
+   - Bonus (Semaphores & Processes): Uses processes and semaphores.
 
----
+This project is written in C and provides a hands-on example of concurrent programming.
 
-### push_swap - finding most efficient sorting algorithm.
-
-Sorting numbers with a frankenstein algorithm. Written in C.
-
-[More detailed description in project repo](https://github.com/julmajustus/Hive/tree/main/push_swap)
+[More detailed description in project repo](https://github.com/julmajustus/philosophers)
 
 ---
 
-### libft - Partial rewrite of glibc with bunch of extra on top.
+### push_swap - Optimized Sorting with a Greedy Approach.
+
+Sorting is a fundamental skill every developer should master. This project challenges you to implement an efficient sorting algorithm in C while getting hands-on with algorithmic complexity. Instead of traditional linked lists, this solution uses circular arrays to represent stacks, offering an alternative perspective on data structure design.
+
+[More detailed description in project repo](https://github.com/julmajustus/push_swap)
+
+---
+
+### pipex - Command Piping in C
+
+pipex is a C project that replicates shell command piping. It demonstrates how to create child processes, manage file descriptors, and set up pipelines to emulate shell behavior.
+
+[More detailed description in project repo](https://github.com/julmajustus/pipex)
+
+---
+
+### libft - A Partial glibc Reimplementation in C
+
+A custom reimplementation of key GNU C Library (glibc) functions written in C. This project serves as both a learning exercise and a reusable library, providing you with a deeper understanding of low-level operations, memory management, string manipulation, and basic data structures.
 
 
-[ft_printf](https://github.com/julmajustus/Hive/tree/main/ft_printf)  
-[get_next_line](https://github.com/julmajustus/Hive/tree/main/get_next_line)  
-[libft](https://github.com/julmajustus/Hive/tree/main/libft)
+[ft_printf](https://github.com/julmajustus/ft_printf)  
+[libft](https://github.com/julmajustus/libft)
 
 ---
 </details>
