@@ -8,11 +8,11 @@ font-display: swap;
 -webkit-size-adjust: 100%;
 size-adjust: 100%;
 }
-.field {fill: #B4A1DB;}
-.text {fill= #c9d1d9;}
+.field {fill: #b4a1db;}
+.text {fill: #c9d1d9;}
 text, tspan {white-space: pre;}
 </style>
-<rect x="0" y="0" width="1002px" height="642px" fill="#6DCCD1"/>
+<rect x="0" y="0" width="1002px" height="642px" fill="#6dccd1"/>
 <rect x="1" y="1" width="1000px" height="640px" fill="#161b22"/>
 <text x="15" y="30" fill="#c9d1d9">
 <tspan x="15" y="30">        @@@@                            @@@@     </tspan>
@@ -52,8 +52,8 @@ text, tspan {white-space: pre;}
 <tspan x="490" y="150" class="field">   </tspan>
 <tspan x="490" y="170" class="field">Bio</tspan>
 <tspan x="490" y="190" class="field"></tspan><tspan class="text">------------------</tspan>
-<tspan x="490" y="210" class="field"></tspan><tspan class="text">Linux enthusiast since early 2000s.</tspan>
-<tspan x="490" y="230" class="field"></tspan><tspan class="text">Interests in cybersecurity,</tspan>
+<tspan x="490" y="210" class="field"></tspan><tspan class="text">Linux enthusiast since the early 2000s.</tspan>
+<tspan x="490" y="230" class="field"></tspan><tspan class="text">Interests: cybersecurity,</tspan>
 <tspan x="490" y="250" class="field"></tspan><tspan class="text">low-level programming languages,</tspan>
 <tspan x="490" y="270" class="field"></tspan><tspan class="text">kernel tuning and hardware overclocking.</tspan>
 <tspan x="490" y="290" class="field"></tspan><tspan class="text">Studying software engineering at 42 Hive Helsinki.</tspan>
@@ -66,11 +66,11 @@ text, tspan {white-space: pre;}
 <tspan x="490" y="430" class="field"></tspan><tspan class="text">   </tspan>
 <tspan x="490" y="450" class="field">GitHub Stats</tspan>
 <tspan x="490" y="470" class="field">Repos</tspan><tspan class="text">: <!-- REPOS_PLACEHOLDER -->24<!-- REPOS_PLACEHOLDER --></tspan>
-<tspan x="490" y="490" class="field">Commits</tspan><tspan class="text">: <!-- CONTRIBUTIONS_PLACEHOLDER -->764<!-- CONTRIBUTIONS_PLACEHOLDER --></tspan>
+<tspan x="490" y="490" class="field">Contributions</tspan><tspan class="text">: <!-- CONTRIBUTIONS_PLACEHOLDER -->764<!-- CONTRIBUTIONS_PLACEHOLDER --></tspan>
 <tspan x="490" y="510" class="field">Pull requests</tspan><tspan class="text">: <!-- PR_PLACEHOLDER -->35<!-- PR_PLACEHOLDER --></tspan>
 <tspan x="490" y="530" class="field">Stars</tspan><tspan class="text">: <!-- STARS_PLACEHOLDER -->2<!-- STARS_PLACEHOLDER --></tspan>
 <tspan x="490" y="550" class="field">Followers</tspan><tspan class="text">: <!-- FOLLOWERS_PLACEHOLDER -->20<!-- FOLLOWERS_PLACEHOLDER --></tspan>
 <tspan x="490" y="570" class="field">Profile Views</tspan><tspan class="text">: <!-- PV_PLACEHOLDER -->134<!-- PV_PLACEHOLDER --></tspan>
-<tspan x="15" y="615" font-size="20" fill="#6DCCD1">github.com/julmajustus</tspan><tspan font-size="20" fill="#2EBC57"> main > </tspan><tspan font-size="20" fill="#c9d1d9" fill-opacity="1"><animate attributeName="fill-opacity" from="1" to="0" dur="1.3s" begin="0s" calcMode="discrete" repeatCount="indefinite" />█</tspan>
+<tspan x="15" y="615" font-size="20" fill="#6dccd1">github.com/julmajustus</tspan><tspan font-size="20" fill="#2ebc57"> main > </tspan><tspan font-size="20" fill="#c9d1d9" fill-opacity="1"><animate attributeName="fill-opacity" from="1" to="0" dur="1.3s" begin="0s" calcMode="discrete" repeatCount="indefinite" />█</tspan>
 </text>
 </svg>
