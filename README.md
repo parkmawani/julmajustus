@@ -16,7 +16,7 @@
 
 ## btrtile — A Focus-Driven Tiling Layout for dwl.
 
-btrtile is a dynamic tiling layout patch designed for the [dwl](https://codeberg.org/dwl/dwl) window manager. It provides a focus-driven, mouse- and keyboard-friendly tiling layout that grants you granular control over how clients are placed and resized.
+btrtile is a dynamic, focus-aware tiling layout patch for the [dwl](https://codeberg.org/dwl/dwl) window manager. Designed with ultrawide monitors and workflow flexibility in mind, it uses a binary tree structure to split the screen based on your pointer’s position relative to the active client. This intelligent layout automatically determines vertical or horizontal splits, while offering both keyboard and mouse controls for precise resizing and client management.
 
 ![btrtile in action](https://github.com/julmajustus/dwl-patches/blob/main/demos/btrtiledemo.gif?raw=true)
 
@@ -24,10 +24,9 @@ btrtile is a dynamic tiling layout patch designed for the [dwl](https://codeberg
 
 ---
 
-## simple_scratchpad — A very simple scratchpad utility.
+## simple_scratchpad — A Minimalist Scratchpad Utility for dwl.
 
-Simple scratchpad utility for the [dwl](https://codeberg.org/dwl/dwl) window manager.  
-Adds functionality to hide/show clients.
+simple_scratchpad is a lightweight utility patch for the [dwl](https://codeberg.org/dwl/dwl) window manager that streamlines your workspace by allowing you to quickly hide and reveal clients on demand. By enabling a simple command to add, toggle, or remove windows from a scratchpad list, it helps keep your desktop uncluttered while preserving the state of auxiliary applications for later use.
 
 ![scratchpad in action](https://github.com/julmajustus/dwl-patches/blob/main/demos/simple_scratchpad_demo.gif?raw=true)
 
@@ -37,7 +36,7 @@ Adds functionality to hide/show clients.
 
 ## fullscreenadaptivesync — Enables adaptive sync/VRR when a client is fullscreen.
 
-Enchanges the VRR experience for the [dwl](https://codeberg.org/dwl/dwl) window manager.  
+fullscreenadaptivesync enhances the visual experience on the [dwl](https://codeberg.org/dwl/dwl) window manager by automatically toggling adaptive sync (VRR) when an application goes fullscreen. This patch detects fullscreen transitions and enables VRR to provide a smoother, tear-free display experience—then disables it when you exit fullscreen—to help minimize flickering and maintain performance. It’s an ideal solution for users with VRR-capable monitors looking for seamless adaptive sync integration.
 
 [More detailed description in project repo](https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/fullscreenadaptivesync)
 
