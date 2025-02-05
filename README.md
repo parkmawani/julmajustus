@@ -14,9 +14,9 @@
 <details>
 <summary style="font-size: 1.2em;"><strong>Code that I actually use</strong></summary>
 
-## btrtile — A Focus-Driven Tiling Layout for dwl.
+## btrtile — A Focus-Driven Tiling Layout for dwl
 
-btrtile is a dynamic, focus-aware tiling layout patch for the [dwl](https://codeberg.org/dwl/dwl) window manager. Designed with ultrawide monitors and workflow flexibility in mind, it uses a binary tree structure to split the screen based on your pointer’s position relative to the active client. This intelligent layout automatically determines vertical or horizontal splits, while offering both keyboard and mouse controls for precise resizing and client management.
+btrtile is a dynamic, focus-aware tiling layout patch for the [dwl](https://codeberg.org/dwl/dwl) window manager. Tailored for ultrawide monitors and flexible workflows, it utilizes a binary tree structure to divide the screen based on your pointer’s position relative to the active client. This intelligent layout automatically chooses vertical or horizontal splits and offers both keyboard and mouse controls for precise resizing and client management.
 
 ![btrtile in action](https://github.com/julmajustus/dwl-patches/blob/main/demos/btrtiledemo.gif?raw=true)
 
@@ -24,7 +24,7 @@ btrtile is a dynamic, focus-aware tiling layout patch for the [dwl](https://code
 
 ---
 
-## simple_scratchpad — A Minimalist Scratchpad Utility for dwl.
+## simple_scratchpad — A Minimalist Scratchpad Utility for dwl
 
 simple_scratchpad is a lightweight utility patch for the [dwl](https://codeberg.org/dwl/dwl) window manager that streamlines your workspace by allowing you to quickly hide and reveal clients on demand. By enabling a simple command to add, toggle, or remove windows from a scratchpad list, it helps keep your desktop uncluttered while preserving the state of auxiliary applications for later use.
 
@@ -34,7 +34,7 @@ simple_scratchpad is a lightweight utility patch for the [dwl](https://codeberg.
 
 ---
 
-## fullscreenadaptivesync — Enables adaptive sync/VRR when a client is fullscreen.
+## fullscreenadaptivesync — Adaptive Sync for Fullscreen Clients in dwl
 
 fullscreenadaptivesync enhances the visual experience on the [dwl](https://codeberg.org/dwl/dwl) window manager by automatically toggling adaptive sync (VRR) when an application goes fullscreen. This patch detects fullscreen transitions and enables VRR to provide a smoother, tear-free display experience—then disables it when you exit fullscreen—to help minimize flickering and maintain performance. It’s an ideal solution for users with VRR-capable monitors looking for seamless adaptive sync integration.
 
@@ -42,7 +42,7 @@ fullscreenadaptivesync enhances the visual experience on the [dwl](https://codeb
 
 ---
 
-## Mini Benchmark Scraper — Linux system benchmark vizualizer.
+## Mini Benchmark Scraper — Linux System Benchmark Visualizer
 
 Mini Benchmark Scraper is a Python script that automates the extraction, parsing, and visualization of benchmark data from [Mini Benchmarker](https://gitlab.com/torvic9/mini-benchmarker) log files. It processes multiple log files, computes averages across different benchmark modes for each kernel version, and generates comparison bar charts embedded in an HTML page for easy analysis.
 
@@ -57,9 +57,9 @@ Used also in [Cachyos-benchmarker](https://github.com/CachyOS/cachyos-benchmarke
 <details>
 <summary style="font-size: 1.2em;"><strong>Educational projects</strong></summary>
 
-## cub3d - Wolfenstein3D/DOOM inspired zombie shooter.
+## cub3d - Wolfenstein3D/DOOM-Inspired Zombie Shooter
 
-Zombie shooter written in C utilizes raycasting, DDA algorithm.
+cub3d is a zombie shooter written in C that draws inspiration from classic titles like Wolfenstein 3D and DOOM. It employs raycasting and the DDA algorithm to create a pseudo-3D experience.
 
 ![Gameplay demo](https://github.com/julmajustus/cub3d/blob/main/textures/cub3d-demo.gif)
 
@@ -75,9 +75,9 @@ minishell is a custom shell implemented in C as part of our group project. It re
 
 ---
 
-## fract’ol - Computer Graphics Fractals.
+## fract’ol - Computer Graphics Fractals
 
-A beautiful fractal renderer built in C using the MLX42 library. This project visualizes a variety of fractals, including the Julia, Mandelbrot, and Multibrot sets.
+fract’ol is a visually captivating fractal renderer built in C using the MLX42 library. It showcases a variety of fractals—including the Julia, Mandelbrot, and Multibrot sets—bringing computer graphics to life.
 
 ![Julia set](https://github.com/julmajustus/fractol/blob/main/demos/julia.png)
 
@@ -85,20 +85,18 @@ A beautiful fractal renderer built in C using the MLX42 library. This project vi
 
 ---
 
-## philosophers - Dining philosophers problem.
+## philosophers - Dining Philosophers Problem
 
-The Dining Philosophers Problem is a classical problem used to illustrate synchronization issues and techniques for preventing deadlock and starvation. In this project, you will find two solutions:
+philosophers is a C project that demonstrates the classic Dining Philosophers Problem, a common exercise in concurrent programming. It features two solutions:
 
    - Pthreads Implementation: Uses threads and mutexes.
    - Bonus (Semaphores & Processes): Uses processes and semaphores.
-
-This project is written in C and provides a hands-on example of concurrent programming.
 
 [More detailed description in project repo](https://github.com/julmajustus/philosophers)
 
 ---
 
-## push_swap - Optimized Sorting with a Greedy Approach.
+## push_swap - Optimized Sorting with a Greedy Approach
 
 Sorting is a fundamental skill every developer should master. This project challenges you to implement an efficient sorting algorithm in C while getting hands-on with algorithmic complexity. Instead of traditional linked lists, this solution uses circular arrays to represent stacks, offering an alternative perspective on data structure design.
 
