@@ -2,7 +2,7 @@
 <!-- MY NEOFETCH-STYLE README -->
 <a href="https://github.com/julmajustus/julmajustus">
   <picture>
-    <img alt="Github profile readme" src="readme.svg">
+    <img alt="Github profile readme" src="https://github.com/julmajustus/julmajustus/blob/main/readme.svg?raw=true">
   </picture>
 </a>
 
@@ -61,7 +61,7 @@ Used also in [Cachyos-benchmarker](https://github.com/CachyOS/cachyos-benchmarke
 
 cub3d is a zombie shooter written in C that draws inspiration from classic titles like Wolfenstein 3D and DOOM. It employs raycasting and the DDA algorithm to create a pseudo-3D experience.
 
-![Gameplay demo](https://github.com/julmajustus/cub3d/blob/main/textures/cub3d-demo.gif)
+![Gameplay demo](https://github.com/julmajustus/cub3d/blob/main/textures/cub3d-demo.gif?raw=true)
 
 [More detailed description in project repo](https://github.com/julmajustus/cub3d)
 
@@ -79,7 +79,7 @@ minishell is a custom shell implemented in C as part of our group project. It re
 
 fract’ol is a visually captivating fractal renderer built in C using the MLX42 library. It showcases a variety of fractals—including the Julia, Mandelbrot, and Multibrot sets—bringing computer graphics to life.
 
-![Julia set](https://github.com/julmajustus/fractol/blob/main/demos/julia.png)
+![Julia set](https://github.com/julmajustus/fractol/blob/main/demos/julia.png?raw=true)
 
 [More detailed description in project repo](https://github.com/julmajustus/fractol)
 
