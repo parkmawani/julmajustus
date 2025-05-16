@@ -46,7 +46,7 @@ def get_komarev_view_count(username):
         return "0"
 
     count = counts[-1].replace(",", "")
-    return counts[-1]
+    return count
 
 
 def main():
