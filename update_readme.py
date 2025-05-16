@@ -41,10 +41,11 @@ def get_komarev_view_count(username):
     r = requests.get(url, timeout=10)
     svg_content = r.text
 
-    counts = re.findall(r'<text [^>]*>(\d+)</text>', svg_content)
+    counts = re.findall(r'<text [^>]*>([\d,]+)</text>', svg_content)
     if not counts:
         return "0"
 
+    count = counts[-1].replace(",", "")
     return counts[-1]
 
 
