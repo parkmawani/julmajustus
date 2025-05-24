@@ -4,7 +4,7 @@ import re
 import requests
 from github import Github
 
-GITHUB_USERNAME = "julmajustus"
+GITHUB_USERNAME = "parkmawani"
 
 
 def replace_placeholder(content, placeholder_name, new_value):
