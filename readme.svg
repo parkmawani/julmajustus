@@ -66,7 +66,7 @@ text, tspan {white-space: pre;}
 <tspan x="490" y="430" class="field"></tspan><tspan class="text">   </tspan>
 <tspan x="490" y="450" class="field">GitHub Stats</tspan>
 <tspan x="490" y="470" class="field">Repos</tspan><tspan class="text">: <!-- REPOS_PLACEHOLDER -->33<!-- REPOS_PLACEHOLDER --></tspan>
-<tspan x="490" y="490" class="field">Contributions</tspan><tspan class="text">: <!-- CONTRIBUTIONS_PLACEHOLDER -->136<!-- CONTRIBUTIONS_PLACEHOLDER --></tspan>
+<tspan x="490" y="490" class="field">Contributions</tspan><tspan class="text">: <!-- CONTRIBUTIONS_PLACEHOLDER -->135<!-- CONTRIBUTIONS_PLACEHOLDER --></tspan>
 <tspan x="490" y="510" class="field">Pull requests</tspan><tspan class="text">: <!-- PR_PLACEHOLDER -->10<!-- PR_PLACEHOLDER --></tspan>
 <tspan x="490" y="530" class="field">Stars</tspan><tspan class="text">: <!-- STARS_PLACEHOLDER -->2<!-- STARS_PLACEHOLDER --></tspan>
 <tspan x="490" y="550" class="field">Followers</tspan><tspan class="text">: <!-- FOLLOWERS_PLACEHOLDER -->6<!-- FOLLOWERS_PLACEHOLDER --></tspan>
